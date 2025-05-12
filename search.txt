@@ -1,0 +1,40 @@
+1-git version
+Displays the version of Git
+
+2-git config
+Configures Git settings such as user information, editor preferences,
+
+3-git add
+Stages changes to be committed.
+
+4-git status
+Displays the current state of your working directory and staging area.
+
+5-git reset
+Resets the repository to a specific commit, affecting the staging area and working directory
+
+6-git commit
+Records staged changes into the Git repository
+
+7-git log
+Displays the commit history of the repository
+
+For you to research:
+
+git rebase
+Applies commits from one branch onto another.
+git rebase <branch-name>.
+
+git restore
+Restores files in the working directory to their state in a given commit or branch.
+
+
+. git diff
+Shows the differences between files or commits.
+git diff README.md
+
+Where do we write ignore values for all repos at the same time?
+Create a global .gitignore file:
+
+Configure Git to use the global .gitignore:
+git config --global core.excludesfile ~/.gitignore_global
